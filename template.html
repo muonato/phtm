@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            @media print {
+                body {
+                    width: 21cm;
+                    height: 29.7cm;
+                }
+            }
+            div.portrait {
+                float: left;
+                width: 9.5cm;
+                height: 13.85cm;
+                border: 2px black solid;
+                margin: 0.1cm;
+                page-break-inside: avoid;
+            }
+            div.portrait img {
+                display: block;
+                width: 8.65cm;
+                height: 13cm;
+                margin-left: auto;
+                margin-right: auto;
+                object-fit: scale-down;
+            }
+            div.landscape {
+                float: left;
+                width: 13.85cm;
+                height: 9.5cm;
+                border: 2px black solid;
+                margin: 0.1cm;
+                page-break-inside: avoid;
+            }
+            div.landscape img {
+                display: block;
+                width: 13cm;
+                height: 8.65cm;
+                margin-left: auto;
+                margin-right: auto;
+                object-fit: scale-down;
+            }
+            div.label {
+                height: 0.5cm;
+            }
+        </style>
+    </head>
+    <body>

@@ -17,6 +17,7 @@ Examples:
 ```
 Requirements:
 ```
-	ImageMagick package handles picture verification (identify) and orientation (convert).
+	ImageMagick package for picture verification (identify) and orientation (convert).
+	
 	$ apt info imagemagick
 ```

@@ -1,8 +1,8 @@
 # phtm
 
-Creates a printer-friendly picture gallery HTML by reading
-picture filenames in CSV file. ImageMagick is required for
-picture verification (identify) and orientation (convert).
+Creates a printer-friendly picture gallery HTML by reading picture filenames in CSV file. Used for creating a contents page of images exported to gallery folder. 
+
+ImageMagick is required for picture verification (identify) and orientation (convert).
 
 Arguments:
 ```

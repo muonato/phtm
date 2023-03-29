@@ -1,8 +1,6 @@
 # phtm
 
-Creates a printer-friendly picture gallery HTML by reading picture filenames in CSV file. Used for creating a contents page of images exported to gallery folder. 
-
-ImageMagick is required for picture verification (identify) and orientation (convert).
+Creates a printer-friendly picture gallery HTML by reading picture filenames in CSV file. Use to create a contents page for images exported to gallery folder. 
 
 Arguments:
 ```
@@ -17,3 +15,6 @@ Examples:
 	$ phtml.sh photos.csv
 	$ phtml.sh images.csv , 1 ./images images.html
 ```
+Requirements:
+	ImageMagick package handles picture verification (identify) and orientation (convert).
+	$ apt info imagemagick

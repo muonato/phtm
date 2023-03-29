@@ -1,6 +1,6 @@
 # phtm
 
-Creates a printer-friendly picture gallery HTML by reading picture filenames in CSV file. Use to create a contents page for images exported to gallery folder. 
+Creates a printer-friendly picture gallery HTML by reading picture filenames in CSV file. Contents page writer for images described in CSV file and exported to gallery folder.
 
 Arguments:
 ```

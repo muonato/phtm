@@ -16,5 +16,7 @@ Examples:
 	$ phtml.sh images.csv , 1 ./images images.html
 ```
 Requirements:
+```
 	ImageMagick package handles picture verification (identify) and orientation (convert).
 	$ apt info imagemagick
+```
